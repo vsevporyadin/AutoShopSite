@@ -1,5 +1,6 @@
 .menu-header-container {
 	position: fixed;
+	top: 0;
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -54,14 +55,14 @@
 .menu-header-number {
 	margin-bottom: 5px;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 17px;
 	color: #F4F4F4;
 	text-align: right;
 	white-space: nowrap;
 }
 .menu-header-number-subtittle {
 	font-weight: 700;
-	font-size: 8px;
+	font-size: 9px;
 	text-align: right;
 	color: #9D9D9D;
 	white-space: nowrap;
