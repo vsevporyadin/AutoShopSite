@@ -101,3 +101,22 @@
 		display: block;
 	}
 }
+@media screen and (max-width: 560px) {
+	.menu-header-number-box {
+		display: none;
+	}
+}
+@media screen and (max-width: 600px) {
+	.slider-top {
+    margin-top: 45px;
+}
+}
+@media screen and (max-width: 400px) {
+	.menu-header-contact-box {
+		display: none;
+	}
+	.menu-header-logo-box {
+		width: 100%;
+		justify-content: space-between;
+	}
+}
