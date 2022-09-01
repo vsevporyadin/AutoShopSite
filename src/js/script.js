@@ -7,7 +7,7 @@ $(document).ready(function () {
 		autoplay:true,
     autoplayTimeout:5000,
     autoplayHoverPause:true,
-		// nav: true,
+		smartSpeed: 900,
     responsive:{
 			3400:{
 				margin:160,
@@ -42,5 +42,19 @@ $(document).ready(function () {
 				items:1.1
 			}
     }
-});
+	});
+
+	$('.slider-bonus').owlCarousel({
+    items:4,
+    loop:true,
+    margin:35,
+		nav: true,
+		navText: ["","<div class='right-btn-slider'><img src='./src/media/icon/right-arrow.svg' alt=''></div>"],
+    // responsive:{
+		// 	600:{
+		// 		margin:30,
+		// 		items:1.3
+		// 	}
+    // }
+	});
 });
