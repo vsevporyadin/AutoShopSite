@@ -141,4 +141,31 @@ $(document).ready(function () {
 			}
     }
 	});
+
+	$('.slider-stories').owlCarousel({
+    items:4,
+    loop:true,
+    margin:35,
+		nav: true,
+		navText: ["","<div class='right-btn-slider right-btn-stories'><img src='./src/media/icon/right-arrow.svg' alt=''></div>"],
+    responsive:{
+			950:{
+				margin:35,
+				items:4
+			},
+			800:{
+				margin:35,
+				items:3
+			},
+			600:{
+				margin:35,
+				items:2
+			},
+			320:{
+				margin:35,
+				items:1
+			}
+    }
+	});
+
 });

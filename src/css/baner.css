@@ -1,0 +1,40 @@
+.baner-online {
+	width: 100%;
+	background: #444444;
+	border-radius: 21px;
+	margin-top: 40px;
+	margin-bottom: 56px;
+	background-image: url(/src/media/img/auto-key.svg);
+	background-repeat: no-repeat;
+	background-position: top -25px right 50px;
+}
+.baner-tittle-box {
+	display: flex;
+	flex-wrap: wrap;
+}
+.baner-online-tittle {
+	font-weight: 700;
+	font-size: 40px;
+	color: #F4F4F4;
+	margin: 50px 0 0 50px;
+	width: 100%;
+}
+.baner-online-subtittle {
+	font-weight: 300;
+	font-size: 24px;
+	color: #F4F4F4;
+	margin: 24px 0 0 50px;
+	width: 100%;
+}
+.order-btn {
+	padding: 18px 34px;
+	background: #FF574D;
+	box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.13);
+	border-radius: 6px;
+	color: #F4F4F4;
+	margin: 40px 0 40px 50px;
+}
+.order-btn:hover {
+	text-decoration: none;
+	color: #F4F4F4;
+}

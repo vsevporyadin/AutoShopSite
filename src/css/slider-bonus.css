@@ -1,0 +1,83 @@
+.slide-bonus {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	border-radius: 21px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.right-btn-slider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+	border-radius: 50px;
+	cursor: pointer;
+}
+.right-btn-slider img {
+	margin-left: 2px;
+}
+button:focus {
+	outline:0px dotted;
+	outline: 0;
+}
+.owl-next {
+	position: absolute;
+	top: 130px;
+	right: -63px;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -45px;
+  top: 55px; 
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -45px;
+  top: 55px;
+}
+.like-btn {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	bottom: 5px;
+	padding: 8px 12px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+	border-radius: 42px;
+	cursor: pointer;
+}
+.like-btn:hover {
+	background: #FF574D;
+}
+.like-btn:hover .like-count {
+	color: #F4F4F4;
+}
+.like-btn:hover svg #like-stroke {
+	stroke: #F4F4F4;
+}
+.like-count {
+	font-weight: 700;
+	font-size: 17px;
+	color: #515151;
+}
+.like-btn svg {
+	margin-left: 5px;
+}
+.free-check {
+	position: absolute;
+	padding: 5px 12px;
+	left: 20px;
+	margin-top: 15px;
+	font-weight: 400;
+	font-size: 12px;
+	color: #FFFFFF;
+	background: #3F8FFE;
+	border-radius: 42px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
