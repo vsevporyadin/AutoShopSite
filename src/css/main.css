@@ -9,6 +9,9 @@
 .col-fix-widht {
 	padding: 0;
 }
+.mt-30 {
+	margin-top: 30px;
+}
 .mb-50 {
 	margin-bottom: 50px;
 }
@@ -27,7 +30,11 @@ h1 {
 	font-weight: 900;
 	color: #515151;
 }
-
+h2 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #515151;
+}
 /* Slider stories */
 .slide-stories {
 	display: flex;
@@ -124,4 +131,227 @@ button:focus {
 	color: #FFFFFF;
 	bottom: 40px;
 	left: 20px;
+}
+/* Lizing calc */
+.btn-liz-box {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.btn-liz {
+	padding: 10px 30px;
+	border: 1px solid #3F8FFE;
+	border-radius: 7px;
+	font-weight: 500;
+	font-size: 15px;
+	color: #3F8FFE;
+	margin-right: 30px;
+}
+.btn-strah {
+	padding: 10px 30px;
+	border: 1px solid #A3A3A3;
+	border-radius: 7px;
+	font-weight: 500;
+	font-size: 15px;
+	color: #A3A3A3;
+}
+.liz-calc-box {
+	display: flex;
+	align-items: center;
+	margin-top: 50px;
+	width: 100%;
+}
+.liz-calc {
+	display: flex;
+	background: #FFFFFF;
+	box-shadow: 1px 0px 55px 10px rgba(0, 0, 0, 0.06);
+	border-radius: 21px;
+	max-width: 1220px;
+	width: 100%;
+	padding: 40px;
+	background-image: url(/src/media/img/calc.png);
+	background-repeat: no-repeat;
+	background-position: top 50px right -230px;
+}
+.liz-calc-form {
+	display: flex;
+	max-width: 360px;
+	width: 100%;
+	margin-right: 50px;
+}
+.liz-calc-text {
+	font-weight: 400;
+	font-size: 13px;
+	color: #A3A3A3;
+}
+.liz-calc-done {
+	max-width: 770px;
+	padding-left: 50px;
+	border-left: 1px solid #A3A3A3;
+}
+.liz-calc-tittle-box {
+	
+	width: 100%;
+}
+.liz-calc-tittle {
+	display: flex;
+	width: 100%;
+	font-weight: 700;
+	font-size: 26px;
+	color: #515151;
+}
+.liz-calc-total-box {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 550px;
+	margin-top: 60px;
+	display: flex;
+}
+.liz-calc-total-sum-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.liz-calc-total-sum-tittle-box {
+	display: flex;
+	align-items: center;
+}
+.liz-calc-total-sum-tittle {
+	font-weight: 500;
+	font-size: 16px;
+	margin-right: 10px;
+}
+.tooltip-gray {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 18px;
+	height: 18px;
+	min-width: 18px;
+	padding-top: 1px;
+	font-weight: 500;
+	font-size: 13px;
+	color: #515151;
+	background: rgba(125, 125, 125, 0.5);
+	border-radius: 50px;
+	cursor: pointer;
+}
+.separator-line {
+	width: 100%;
+	height: 1px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background: #C3C3C3;
+}
+.liz-calc-total-sum {
+	white-space: nowrap;
+	font-weight: 500;
+	font-size: 20px;
+	color: #515151;
+}
+
+.liz-calc-total-mon-pay-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 30px;
+}
+.liz-calc-total-mon-pay-tittle-box {
+	display: flex;
+	align-items: center;
+}
+.liz-calc-total-mon-pay-tittle {
+	font-weight: 500;
+	font-size: 16px;
+	margin-right: 10px;
+	color: #FF574D;
+}
+.liz-calc-total-mon-pay {
+	white-space: nowrap;
+	font-weight: 500;
+	font-size: 20px;
+	color: #FF574D;
+}
+
+.liz-calc-total-costs-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.liz-calc-total-costs-tittle-box {
+	display: flex;
+	align-items: center;
+}
+.liz-calc-total-costs-tittle {
+	font-weight: 500;
+	font-size: 16px;
+	margin-right: 10px;
+	color: #515151;
+}
+.liz-calc-total-costs {
+	white-space: nowrap;
+	font-weight: 500;
+	font-size: 20px;
+	color: #515151;
+}
+
+.liz-calc-total-refund-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 30px;
+}
+.liz-calc-total-refund-tittle-box {
+	display: flex;
+	align-items: center;
+}
+.liz-calc-total-refund-tittle {
+	font-weight: 500;
+	font-size: 16px;
+	margin-right: 10px;
+	color: #515151;
+}
+.liz-calc-total-refund {
+	white-space: nowrap;
+	font-weight: 500;
+	font-size: 20px;
+	color: #515151;
+}
+
+.liz-calc-total-economy-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 30px;
+}
+.liz-calc-total-economy-tittle-box {
+	display: flex;
+	align-items: center;
+}
+.liz-calc-total-economy-tittle {
+	font-weight: 500;
+	font-size: 16px;
+	margin-right: 10px;
+	color: #515151;
+}
+.liz-calc-total-economy {
+	white-space: nowrap;
+	font-weight: 500;
+	font-size: 20px;
+	color: #515151;
+}
+
+.order-btn-calc {
+	display: inline-block;
+	padding: 18px 34px;
+	background: #FF574D;
+	box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.13);
+	border-radius: 6px;
+	color: #F4F4F4;
 }
