@@ -12,7 +12,7 @@
 		<!-- Plugins -->
 		<link rel="stylesheet" href="./src/owlcarousel/owl.carousel.min.css">
 		<link rel="stylesheet" href="./src/owlcarousel/owl.theme.default.min.css">
-
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.min.css">
 		<!-- CSS -->
 		<link rel="stylesheet" href="./src/css/font.css">
 		<link rel="stylesheet" href="./src/css/reset.css">
@@ -283,11 +283,36 @@
 						<div class="liz-calc-box">
 							<div class="liz-calc">
 								<div class="liz-calc-form">
+									<div class="liz-calc-tittle-m">Лизинговый калькулятор</div>
 									<div class="liz-calc-text">Цена на автомобили определяется автопроизводителями и/или дилерскими центрами самостоятельно и предоставляется ПАО «ЛК «Европлан» для заключения договора лизинга, информацию о точной стоимости уточняйте у менеджера Европлана</div>
+									<div class="liz-calc-form-box">
+										<form class="form-calc">
+											<div class="form-group">
+												<label class="liz-calc-form-label" for="input_text1">Стоимость автомобиля</label>
+												<input type="text" class="form-control" name="input_text1" id="input_text1" max="3000000" value="1500000" onchange="rangeinput1.value = input_text1.value">
+												<input id="rangeinput1" type="text" data-slider-ticks="[500000, 1000000, 1500000, 2000000, 2500000, 3000000]" data-slider-ticks-snap-bounds="100000" data-slider-ticks-labels='["500 тыс.", "1 млн.", "1.5 млн.", "2 млн.", "2.5 млн.", "3 млн."]' oninput="input_text1.value = rangeinput1.value" onchange="input_text1.value = rangeinput1.value" data-slider-step="50000" data-slider-value="1500000"/>
+											</div>
+										</form>
+										<form class="form-calc">
+											<div class="form-group">
+												<label class="liz-calc-form-label" for="input_text2">Стоимость автомобиля</label>
+												<input type="text" class="form-control" name="input_text2" id="input_text2" max="3000000" value="1500000" onchange="rangeinput2.value = input_text2.value">
+												<input id="rangeinput2" type="text" data-slider-ticks="[500000, 1000000, 1500000, 2000000, 2500000, 3000000]" data-slider-ticks-snap-bounds="100000" data-slider-ticks-labels='["500 тыс.", "1 млн.", "1.5 млн.", "2 млн.", "2.5 млн.", "3 млн."]' oninput="input_text2.value = rangeinput2.value" onchange="input_text2.value = rangeinput2.value" data-slider-step="50000" data-slider-value="1500000"/>
+											</div>
+										</form>
+										<form class="form-calc">
+											<div class="form-group">
+												<label class="liz-calc-form-label" for="input_text3">Стоимость автомобиля</label>
+												<input type="text" class="form-control" name="input_text3" id="input_text3" max="3000000" value="1500000" onchange="rangeinput3.value = input_text3.value">
+												<input id="rangeinput3" type="text" data-slider-ticks="[500000, 1000000, 1500000, 2000000, 2500000, 3000000]" data-slider-ticks-snap-bounds="100000" data-slider-ticks-labels='["500 тыс.", "1 млн.", "1.5 млн.", "2 млн.", "2.5 млн.", "3 млн."]' oninput="input_text3.value = rangeinput3.value" onchange="input_text3.value = rangeinput3.value" data-slider-step="50000" data-slider-value="1500000"/>
+											</div>
+										</form>
+									</div>
 								</div>
 								<div class="liz-calc-done">
 									<div class="liz-calc-tittle-box">
 										<div class="liz-calc-tittle">Лизинговый калькулятор</div>
+										<div class="liz-calc-tittle-done">Результат расчета</div>
 									</div>
 									<div class="liz-calc-total-box">
 										<div class="liz-calc-total-sum-box">
@@ -332,6 +357,7 @@
 								</div>
 							</div>
 						</div>
+						<div class="line-border-page"></div>
 					</div>
 				</div>
 			</div>
@@ -344,6 +370,7 @@
 		<!-- Plugins -->
 		<script src="./src/owlcarousel/owl.carousel.js"></script>
 		<script src="./src/owlcarousel/owl.carousel.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/bootstrap-slider.min.js"></script>
 			<!-- JS -->
 		<script src="./src/js/script.js"></script>
 	</body>
