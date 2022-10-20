@@ -29,3 +29,19 @@
 	text-decoration: none;
 	color: #F4F4F4;
 }
+@media screen and (max-width: 1250px) {
+	.slide-top-btn {
+		margin-bottom: 120px;
+		margin-left: 60px;
+	}
+}
+@media screen and (max-width: 850px) {
+	.slide-top {
+		margin-bottom: 50px;
+	}
+	.slide-top-btn {
+		margin-bottom: 80px;
+		margin-left: 30px;
+		padding: 14px 24px;
+	}
+}

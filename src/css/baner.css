@@ -11,19 +11,19 @@
 .baner-tittle-box {
 	display: flex;
 	flex-wrap: wrap;
+	padding: 40px;
 }
 .baner-online-tittle {
 	font-weight: 700;
 	font-size: 40px;
 	color: #F4F4F4;
-	margin: 50px 0 0 50px;
 	width: 100%;
 }
 .baner-online-subtittle {
 	font-weight: 300;
 	font-size: 24px;
 	color: #F4F4F4;
-	margin: 24px 0 0 50px;
+	margin-top: 24px;
 	width: 100%;
 }
 .order-btn {
@@ -32,9 +32,40 @@
 	box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.13);
 	border-radius: 6px;
 	color: #F4F4F4;
-	margin: 40px 0 40px 50px;
+	margin-top: 40px;
 }
 .order-btn:hover {
 	text-decoration: none;
 	color: #F4F4F4;
+}
+@media screen and (max-width: 1125px) {
+	.baner-online {
+		background-position: top -25px right 10px;
+	}
+}
+@media screen and (max-width: 1088px) {
+	.baner-online {
+		background-image: none;
+	}
+}
+@media screen and (max-width: 500px) {
+	.baner-online-tittle {
+    font-size: 30px;
+	}
+	.baner-online-subtittle {
+    font-size: 20px;
+		line-height: 30px;
+	}
+}
+@media screen and (max-width: 401px) {
+	.order-btn {
+		padding: 18px 20px;
+	}
+	.baner-online-tittle {
+    font-size: 25px;
+	}
+	.baner-online-subtittle {
+    font-size: 16px;
+		line-height: 24px;
+	}
 }
