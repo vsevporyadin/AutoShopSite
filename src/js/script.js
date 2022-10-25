@@ -186,5 +186,19 @@ $(document).ready(function () {
     ticks_snap_bounds: 100000
 	});
 
+	// Прокрутка меню
+	$('.link_catalog').on('click', function(e){
+		var fixed_offset = -100;
+		$('html,body').stop().animate({ scrollTop: $('#point_catalog').offset().top+fixed_offset+"px" }, 1000);
+		e.preventDefault();
+	});
+
+	$('.link_lizing').on('click', function(e){
+		var fixed_offset = -100;
+		$('html,body').stop().animate({ scrollTop: $('#point_lizing').offset().top+fixed_offset+"px" }, 1000);
+		e.preventDefault();
+	});
+		
+
 });
 

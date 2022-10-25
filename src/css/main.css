@@ -683,7 +683,6 @@ button:focus {
 }
 /* Contact */
 .contact-box {
-	display: flex;
 	width: 100%;
 	padding: 40px;
 	background: #FFFFFF;
@@ -711,6 +710,7 @@ button:focus {
 	font-weight: 400;
 	color: #515151;
 	margin-bottom: 30px;
+	width: 100%;
 }
 .contact-info-phone {
 	font-size: 20px;
