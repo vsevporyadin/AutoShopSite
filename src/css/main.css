@@ -835,3 +835,22 @@ button:focus {
 		margin-top: 30px;
 	}
 }
+.footer-studio {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 30px;
+}
+.studio-box:hover {
+	text-decoration: none;
+}
+.studio-tittle {
+	font-weight: 500;
+	font-size: 16px;
+	color: #9D9D9D;
+	margin-bottom: 10px;
+}
+@media screen and (max-width: 586px) {
+	.footer-studio {
+		justify-content: flex-start;
+	}
+}
