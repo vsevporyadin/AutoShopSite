@@ -6,7 +6,7 @@ $(document).ready(function () {
     margin:80,
 		autoplay:true,
     autoplayTimeout:5000,
-    autoplayHoverPause:true,
+    // autoplayHoverPause:true,
 		smartSpeed: 900,
     responsive:{
 			3400:{

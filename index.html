@@ -366,11 +366,7 @@
 			<div class="container fix-widht p-0">
 				<div class="row m-0">
 					<div class="col-lg-12 col-fix-widht">
-						<h1 id="point_catalog">Модельный ряд</h1>
-						<h2 class="mt-30">Сделайте предварительный расчёт ежемесячного платежа по лизингу</h2>
-						<div class="btn-liz-box">
-
-						</div>
+						<h1 id="point_catalog" class=" mb-50">Модельный ряд</h1>
 					</div>
 				</div>
 			</div>
@@ -384,10 +380,18 @@
 							<div class="cd-tab-filter-wrapper">
 								<div class="cd-tab-filter">
 									<ul class="cd-filters">
-										<li class="filter filter-car"><a class="type-transport legkovoi selected" href="#0" data-type="all">Легковые автомобили</a></li>
-										<li class="filter  filter-car" data-filter=".color-1"><a class="type-transport comercial" href="#0" data-type="color-1">Коммерческий транспорт</a></li>
-										<li class="filter  filter-car" data-filter=".color-2"><a class="type-transport gruzovoi" href="#0" data-type="color-2">Грузовые автомобили</a></li>
-										<li class="filter  filter-car" data-filter=".color-3"><a class="type-transport spectex" href="#0" data-type="color-3">Спецтехника</a></li>
+										<li class="filter filter-car"  data-filter=".leg-car">
+											<a class="type-transport legkovoi" href="#0" data-type="leg-car">Легковые автомобили</a>
+										</li>
+										<li class="filter  filter-car" data-filter=".commers-car">
+											<a class="type-transport comercial" href="#0" data-type="commers-car">Коммерческий транспорт</a>
+										</li>
+										<li class="filter  filter-car" data-filter=".gruz-car">
+											<a class="type-transport gruzovoi" href="#0" data-type="gruz-car">Грузовые автомобили</a>
+										</li>
+										<li class="filter  filter-car" data-filter=".spec-car">
+											<a class="type-transport spectex" href="#0" data-type="spec-car">Спецтехника</a>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -417,11 +421,19 @@
 														<div class="cd-filter-content">
 															<div class="cd-select cd-filters filter-select">
 																<select class="filter" name="selectThis" id="selectThis">
-																	<option value="">Choose an option</option>
-																	<option value=".option1">Option 1</option>
-																	<option value=".option2">Option 2</option>
-																	<option value=".option3">Option 3</option>
-																	<option value=".option4">Option 4</option>
+																	<option value="">Марка</option>
+																	<option value=".bmw">BMW</option>
+																	<option value=".honda">Honda</option>
+																	<option value=".hyundai">Hyundai</option>
+																	<option value=".kia">KIA</option>
+																	<option value=".mitsubishi">Mitsubishi</option>
+																	<option value=".rolls">Rolls Royce</option>
+																	<option value=".toyota">Toyota</option>
+																	<option value=".volk">Volkswagen</option>
+																	<option value=".shacman">Shacman</option>
+																	<option value=".scania">Scania</option>
+																	<option value=".case">CASE</option>
+																	<option value=".hidromek">Hidromek</option>
 																</select>
 															</div>
 														</div>
@@ -432,11 +444,11 @@
 														<div class="cd-filter-content">
 															<div class="cd-select cd-filters filter-select">
 																<select class="filter" name="selectThis" id="selectThis">
-																	<option value="">Choose an option</option>
-																	<option value=".option1">Option 1</option>
-																	<option value=".option2">Option 2</option>
-																	<option value=".option3">Option 3</option>
-																	<option value=".option4">Option 4</option>
+																	<option value="">Год выпуска</option>
+																	<option value=".option2018">2018</option>
+																	<option value=".option2020">2020</option>
+																	<option value=".option2021">2021</option>
+																	<option value=".option2022">2022</option>
 																</select>
 															</div>
 														</div>
@@ -447,11 +459,9 @@
 														<div class="cd-filter-content">
 															<div class="cd-select cd-filters filter-select">
 																<select class="filter" name="selectThis" id="selectThis">
-																	<option value="">Choose an option</option>
-																	<option value=".option1">Option 1</option>
-																	<option value=".option2">Option 2</option>
-																	<option value=".option3">Option 3</option>
-																	<option value=".option4">Option 4</option>
+																	<option value="">Коробка</option>
+																	<option value=".auto">Автомат</option>
+																	<option value=".mex">Механика</option>
 																</select>
 															</div>
 														</div>
@@ -462,11 +472,9 @@
 														<div class="cd-filter-content">
 															<div class="cd-select cd-filters filter-select filter-select-last">
 																<select class="filter" name="selectThis" id="selectThis">
-																	<option value="">Choose an option</option>
-																	<option value=".option1">Option 1</option>
-																	<option value=".option2">Option 2</option>
-																	<option value=".option3">Option 3</option>
-																	<option value=".option4">Option 4</option>
+																	<option value="">Двигатель</option>
+																	<option value=".benz">Бензин</option>
+																	<option value=".dizel">Дизель</option>
 																</select>
 															</div>
 														</div>
@@ -481,11 +489,12 @@
 
 					<section class="cd-gallery">
 						<ul>
-							<li class="mix ads-car-box color-1 check1 radio2 option3">
+							<!-- Card -->
+							<li class="mix ads-car-box leg-car check2 check3 option2018 volk auto benz">
 								<div class="ads-car-label car-old">С пробегом</div>
 								<div class="ads-car-label-nal">В наличии</div>	
 								<img src="./src/media/photo/jetta18.jpg" alt="Image 1">
-
+								
 								<div class="ads-car-tittle">Volkswagen Jetta</div>
 								<div class="ads-car-specifi-box">
 									<div class="car-specifi">1.4 / 140 л.с. / Бензин</div>  
@@ -499,7 +508,8 @@
 								<div class="ads-car-price">2 350 000 ₽</div>
 								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
 							</li>
-							<li class="mix ads-car-box color-2 check2 radio2 option2">
+							<!-- Card -->
+							<li class="mix ads-car-box leg-car check1 option2022 toyota auto dizel">
 								<div class="ads-car-label car-new">Новый</div>
 								<img src="./src/media/photo/toyota300 (2).jpg" alt="Image 1">
 								
@@ -516,7 +526,8 @@
 								<div class="ads-car-price">12 500 000 ₽</div>
 								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
 							</li>
-							<li class="mix ads-car-box color-1 check3 radio3 option1">
+							<!-- Card -->
+							<li class="mix ads-car-box leg-car check1 option2022 kia auto benz">
 								<div class="ads-car-label car-new">Новый</div>
 								<img src="./src/media/photo/kia.jpg" alt="Image 1">
 								
@@ -533,7 +544,8 @@
 								<div class="ads-car-price">3 200 000 ₽</div>
 								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
 							</li>
-							<li class="mix ads-car-box color-1 check3 radio2 option4">
+							<!-- Card -->
+							<li class="mix ads-car-box leg-car check2 check3 option2020 hyundai auto benz">
 								<div class="ads-car-label car-old">С пробегом</div>
 								<div class="ads-car-label-nal">В наличии</div>
 								<img src="./src/media/photo/sant.jpg" alt="Image 1">
@@ -551,7 +563,8 @@
 								<div class="ads-car-price">4 500 000 ₽</div>
 								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
 							</li>
-							<li class="mix ads-car-box color-1 check1 radio3 option2">
+							<!-- Card -->
+							<li class="mix ads-car-box leg-car check2 check3 option2021 honda auto benz">
 								<div class="ads-car-label car-old">С пробегом</div>
 								<div class="ads-car-label-nal">В наличии</div>
 								<img src="./src/media/photo/honda.jpg" alt="Image 1">
@@ -569,130 +582,191 @@
 								<div class="ads-car-price">2 750 000 ₽</div>
 								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
 							</li>
-							<li class="mix ads-car-box color-2 check2 radio3 option3">
+							<!-- Card -->
+							<li class="mix ads-car-box leg-car check2 option2021 mitsubishi auto benz">
 								<div class="ads-car-label car-old">С пробегом</div>
 								<img src="./src/media/photo/mitpa.png" alt="Image 1">
 								
 								<div class="ads-car-tittle">Mitsubishi Montero</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-specifi">3.0 / 249 л.с. / Бензин</div>  
+									<div class="car-specifi">3.0 / 205 л.с. / Бензин</div>  
 									<div class="transmission">Автомат</div>
 								</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-mileage">2021 г. / 14000 км</div>  
+									<div class="car-mileage">2021 г. / 3000 км</div>  
 									<div class="car-color">Коричневый</div>
 								</div>
 								<div class="ads-car-price-tittle">Цена</div>
-								<div class="ads-car-price">3 400 000 ₽</div>
+								<div class="ads-car-price">3 600 000 ₽</div>
 								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
 							</li>
-							<li class="mix ads-car-box color-2 check2 radio2 option1">
+							<!-- Card -->
+							<li class="mix ads-car-box leg-car check1 option2020 rolls auto benz">
 								<div class="ads-car-label car-new">Новый</div>
 								<img src="./src/media/photo/rols.png" alt="Image 1">
 								
 								<div class="ads-car-tittle">Rolls Royce Cullinan</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-specifi">6.7 / 249 л.с. / Дизель</div>  
+									<div class="car-specifi">6.8 / 571 л.с. / Бензин</div>  
 									<div class="transmission">Автомат</div>
 								</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-mileage">2022 г. / 14000 км</div>  
-									<div class="car-color">Белый</div>
+									<div class="car-mileage">2020 г. / 15000 км</div>  
+									<div class="car-color">Серый</div>
 								</div>
 								<div class="ads-car-price-tittle">Цена</div>
-								<div class="ads-car-price">3 400 000 ₽</div>
+								<div class="ads-car-price">45 000 000 ₽</div>
 								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
 							</li>
-							<li class="mix ads-car-box color-1 check1 radio3 option4">
+							<!-- Card -->
+							<li class="mix ads-car-box leg-car check1 option2021 bmw auto benz">
 								<div class="ads-car-label car-new">Новый</div>
 								<img src="./src/media/photo/bmw3.png" alt="Image 1">
 								
 								<div class="ads-car-tittle">BMW X5M Competition</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-specifi">3.0 / 625 л.с. / Дизель</div>  
+									<div class="car-specifi">4.4 / 625 л.с. / Бензин</div>  
 									<div class="transmission">Автомат</div>
 								</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-mileage">2022 г. / 14000 км</div>  
-									<div class="car-color">Белый</div>
+									<div class="car-mileage">2021 г. / 1200 км</div>  
+									<div class="car-color">Черный</div>
 								</div>
 								<div class="ads-car-price-tittle">Цена</div>
-								<div class="ads-car-price">3 400 000 ₽</div>
+								<div class="ads-car-price">13 500 000 ₽</div>
 								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
 							</li>
-							<li class="mix ads-car-box color-2 check1 radio2 option3">
-								<div class="ads-car-label car-old">С пробегом</div>
-								<img src="./src/media/photo/bmw-photo.png" alt="Image 1">
+							<!-- Card -->
+							<li class="mix ads-car-box leg-car check1 option2022 mitsubishi auto dizel">
+								<div class="ads-car-label car-new">Новый</div>
+								<img src="./src/media/photo/mitspads.png" alt="Image 1">
 								
-								<div class="ads-car-tittle">BMW X6 35i (F16)</div>
+								<div class="ads-car-tittle">Mitsubishi Pajero sport</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-specifi">3.0/249 л.с./Дизель</div>  
+									<div class="car-specifi">3.0 / 181 л.с. / Дизель</div>  
 									<div class="transmission">Автомат</div>
 								</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-mileage">2020 г. / 14000 км</div>  
-									<div class="car-color">Белый</div>
+									<div class="car-mileage">2022 г. / - км</div>  
+									<div class="car-color">Серебристый</div>
 								</div>
 								<div class="ads-car-price-tittle">Цена</div>
-								<div class="ads-car-price">3 400 000 ₽</div>
+								<div class="ads-car-price">4 700 000 ₽</div>
 								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
 							</li>
-							<li class="mix ads-car-box color-1 check3 radio2 option4">
-								<div class="ads-car-label car-old">С пробегом</div>
-								<img src="./src/media/photo/bmw-photo.png" alt="Image 1">
+							<!-- Card -->
+							<li class="mix ads-car-box leg-car check1 option2022 kia auto benz">
+								<div class="ads-car-label car-new">Новый</div>
+								<img src="./src/media/photo/kia2.jpg" alt="Image 1">
 								
-								<div class="ads-car-tittle">BMW X6 35i (F16)</div>
+								<div class="ads-car-tittle">KIA K5</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-specifi">3.0/249 л.с./Дизель</div>  
+									<div class="car-specifi">2.0 / 150 л.с. / Бензин</div>  
 									<div class="transmission">Автомат</div>
 								</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-mileage">2020 г. / 14000 км</div>  
+									<div class="car-mileage">2022 г. / 19 км</div>  
 									<div class="car-color">Белый</div>
 								</div>
 								<div class="ads-car-price-tittle">Цена</div>
-								<div class="ads-car-price">3 400 000 ₽</div>
+								<div class="ads-car-price">3 200 000 ₽</div>
 								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
 							</li>
-							<li class="mix ads-car-box color-1 check3 radio3 option2">
-								<div class="ads-car-label car-old">С пробегом</div>
-								<img src="./src/media/photo/bmw-photo.png" alt="Image 1">
+							<!-- Card -->
+							<li class="mix ads-car-box leg-car check1 option2022 toyota auto dizel">
+								<div class="ads-car-label car-new">Новый</div>
+								<img src="./src/media/photo/prado.png" alt="Image 1">
 								
-								<div class="ads-car-tittle">BMW X6 35i (F16)</div>
+								<div class="ads-car-tittle">Toyota Land Cruiser Prado</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-specifi">3.0/249 л.с./Дизель</div>  
+									<div class="car-specifi">2.8 / 200 л.с. / Дизель</div>  
 									<div class="transmission">Автомат</div>
 								</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-mileage">2020 г. / 14000 км</div>  
-									<div class="car-color">Белый</div>
+									<div class="car-mileage">2022 г. / - км</div>  
+									<div class="car-color">Серебристый</div>
 								</div>
 								<div class="ads-car-price-tittle">Цена</div>
-								<div class="ads-car-price">3 400 000 ₽</div>
+								<div class="ads-car-price">8 500 000 ₽</div>
 								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
 							</li>
-							<li class="mix ads-car-box color-2 check1 radio3 option1">
-								<div class="ads-car-label car-old">С пробегом</div>
-								<img src="./src/media/photo/bmw-photo.png" alt="Image 1">
+							<!-- Card -->
+							<li class="mix ads-car-box gruz-car check1 option2022 shacman">
+								<div class="ads-car-label car-new">Новый</div>
+								<img src="./src/media/photo/shac.png" alt="Image 1">
 								
-								<div class="ads-car-tittle">BMW X6 35i (F16)</div>
+								<div class="ads-car-tittle">Shacman F3000</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-specifi">3.0/249 л.с./Дизель</div>  
+									<div class="car-specifi">12 / 380 л.с. / г.п. 20 т</div>  
 									<div class="transmission">Автомат</div>
 								</div>
 								<div class="ads-car-specifi-box">
-									<div class="car-mileage">2020 г. / 14000 км</div>  
+									<div class="car-mileage">2022 г. / 1000 км</div>  
 									<div class="car-color">Белый</div>
 								</div>
 								<div class="ads-car-price-tittle">Цена</div>
-								<div class="ads-car-price">3 400 000 ₽</div>
+								<div class="ads-car-price">6 800 000 ₽</div>
+								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
+							</li>
+							<!-- Card -->
+							<li class="mix ads-car-box gruz-car check2 option2021 scania">
+								<div class="ads-car-label car-old">С пробегом</div>
+								<img src="./src/media/photo/scania.png" alt="Image 1">
+								
+								<div class="ads-car-tittle">Scania P440</div>
+								<div class="ads-car-specifi-box">
+									<div class="car-specifi">12 / 440 л.с. / г.п. 20 т</div>  
+									<div class="transmission">Автомат</div>
+								</div>
+								<div class="ads-car-specifi-box">
+									<div class="car-mileage">2021 г. / 13000 км</div>  
+									<div class="car-color">Синий</div>
+								</div>
+								<div class="ads-car-price-tittle">Цена</div>
+								<div class="ads-car-price">16 800 000 ₽</div>
+								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
+							</li>
+							<!-- Card -->
+							<li class="mix ads-car-box spec-car check1 option2021 case">
+								<div class="ads-car-label car-new">Новый</div>
+								<img src="./src/media/photo/case.png" alt="Image 1">
+								
+								<div class="ads-car-tittle">CASE CX220C</div>
+								<div class="ads-car-specifi-box">
+									<div class="car-specifi">- / 156 л.с. / г.п. 22 т</div>  
+									<div class="transmission">Автомат</div>
+								</div>
+								<div class="ads-car-specifi-box">
+									<div class="car-mileage">2021 г. / - км</div>  
+									<div class="car-color">Желтый</div>
+								</div>
+								<div class="ads-car-price-tittle">Цена</div>
+								<div class="ads-car-price">7 900 000 ₽</div>
+								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
+							</li>
+							<!-- Card -->
+							<li class="mix ads-car-box spec-car check1 option2022 hidromek">
+								<div class="ads-car-label car-new">Новый</div>
+								<img src="./src/media/photo/hid.png" alt="Image 1">
+								
+								<div class="ads-car-tittle">Hidromek 102B</div>
+								<div class="ads-car-specifi-box">
+									<div class="car-specifi">- / 150 л.с. / Дизель</div>  
+									<div class="transmission">Автомат</div>
+								</div>
+								<div class="ads-car-specifi-box">
+									<div class="car-mileage">2022 г. / - км</div>  
+									<div class="car-color">Белый</div>
+								</div>
+								<div class="ads-car-price-tittle">Цена</div>
+								<div class="ads-car-price">9 000 000 ₽</div>
 								<div class="ads-car-order-btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</div>
 							</li>
 							<li class="gap"></li>
 							<li class="gap"></li>
 							<li class="gap"></li>
 						</ul>
-						<div class="cd-fail-message">Пусто</div>
+						<div class="cd-fail-message">Ничего не найдено</div>
 					</section>
 
 				</div>
@@ -702,10 +776,7 @@
 			<div class="container fix-widht p-0 mt-30 mb-30">
 				<div class="row m-0">
 					<div class="col-lg-12 col-fix-widht">
-						<h1>Контакты</h1>
-						<div class="btn-liz-box">
-
-						</div>
+						<h1 class="mb-30">Контакты</h1>
 					</div>
 				</div>
 			</div>
