@@ -7,7 +7,7 @@
 		$message .= "Номер телефона: ".$_POST['phone']."<br>";
 		$message .= "В лизинг: ".$_POST['checkbox1']."<br>";
 		$message .= "Физическое лицо: ".$_POST['radioform']."<br>";
-		$message .= "Юридическое лицо: ".$_POST['radioform']."<br>";
+		$message .= "Физ/Юр лицо: ".$_POST['radioform']."<br>";
 		$headers .= 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 		mail($to, $tema, $message, $headers);
