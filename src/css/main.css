@@ -18,6 +18,15 @@
 .mb-30 {
 	margin-bottom: 30px;
 }
+.form-check-input {
+	margin-top: 1px;
+}
+.checkform {
+	margin-top: 25px;
+}
+.checkform2 {
+	margin-top: 15px;
+}
 @media screen and (max-width: 1280px) {
 	.col-fix-widht {
 		padding: 0 40px 0 40px;
@@ -25,7 +34,7 @@
 }
 /* Slider */
 .owl-dots {
-	display: none;
+	/* display: none; */
 }
 /* Font */
 h1 {
