@@ -18,40 +18,6 @@
 .mb-30 {
 	margin-bottom: 30px;
 }
-.form-check-input {
-	margin-top: 1px;
-}
-.checkform {
-	margin-top: 25px;
-}
-.checkform2 {
-	margin-top: 15px;
-}
-
-button { 
-    position: relative;
-    border: 0; 
-    padding: 0;
-    outline: none; /* for good measure */
-    overflow: visible; /* removes extra side padding in IE */
-}
-
-button::-moz-focus-inner {
-    border: none;  /* overrides extra padding in Firefox */
-}
-
-button span { 
-    position: relative;
-    display: block; 
-    white-space: nowrap;    
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    /* Safari and Google Chrome only - fix margins */
-    button span {
-        margin-top: -1px;
-    }
-}
 @media screen and (max-width: 1280px) {
 	.col-fix-widht {
 		padding: 0 40px 0 40px;
@@ -59,7 +25,7 @@ button span {
 }
 /* Slider */
 .owl-dots {
-	/* display: none; */
+	display: none;
 }
 /* Font */
 h1 {
