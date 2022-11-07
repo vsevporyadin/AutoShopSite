@@ -3,6 +3,7 @@ $(document).ready(function () {
     center: true,
     items:1.5,
     loop:true,
+		dots:true,
     margin:80,
 		autoplay:true,
     autoplayTimeout:5000,
@@ -119,6 +120,7 @@ $(document).ready(function () {
 	$('.slider-bonus').owlCarousel({
     items:4,
     loop:true,
+		dots:false,
     margin:35,
 		nav: true,
 		navText: ["","<div class='right-btn-slider'><img src='./src/media/icon/right-arrow.svg' alt=''></div>"],
@@ -145,6 +147,7 @@ $(document).ready(function () {
 	$('.slider-stories').owlCarousel({
     items:4,
     loop:true,
+		dots:false,
     margin:35,
 		nav: true,
 		navText: ["","<div class='right-btn-slider right-btn-stories'><img src='./src/media/icon/right-arrow.svg' alt=''></div>"],

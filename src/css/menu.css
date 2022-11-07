@@ -9,6 +9,7 @@
 	background: rgba(0, 0, 0, 0.75);
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
 	backdrop-filter: blur(24px);
+    -webkit-backdrop-filter:saturate(180%) blur(24px);
 }
 .menu-header-box {
 	width: 1220px;
